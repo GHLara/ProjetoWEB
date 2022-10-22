@@ -8,14 +8,30 @@
 </head>
 <body>
     <div class="menu">
-        <h1 class="logo"><img src="logo.png" alt=""></h1>
-        <a href="cadastro.html">cadastro</a>
-        <a href="main.html">Login</a>
+        <div class="logo">
+            <img src="logo-branco.png" alt="" id="logo"></div>
+        <div class="register-button button">
+            <a href="cadastro.html" class="button-style">Cadastro</a>
+        </div>
+        <div class="login-button button">
+            <a href="main.html" class="button-style ">Login</a>
+        </div>
     </div>
-    <div class="produtos">
-        <img src="Guitarra.png" alt="">
+
+    <div class="conteiner">
+        <div class="gallery-wrapper">
+            <button class="arrow-left control" aria-label="previous-image"><img src="arrow/arrow-left.png" alt="" class="arrow-img"></button>
+            <button class="arrow-right control" aria-label="next-image"><img src="arrow/arrow-right.png" alt="" class="arrow-img"></button>
+
+
+            <div class="gallery">
+                <img src="imagens/Guitarra.png" alt="" class="item current-item">
+                <img src="imagens/mixer.png" alt="" class="item current-item">
+                <img src="imagens/piano.png" alt="" class="item current-item">
+            </div>
+        </div>
     </div>
-    <div class="categorias"></div>
-    <div class="sobre"></div>
+    <div class="saiba"></div>
+    <script src="javascript.js"></script>
 </body>
 </html>
